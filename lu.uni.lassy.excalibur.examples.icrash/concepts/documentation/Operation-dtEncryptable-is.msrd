@@ -1,0 +1,15 @@
+/*
+@author Misha
+@date Mon Nov 28 23:26:52 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.datatypes.dtEncryptable.is
+@description " used to check the encryption/decryption "
+//postFunctional descriptions
+@postF 
+" we see true or false "
+@endPostF
+//example
+@example" "

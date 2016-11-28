@@ -1,0 +1,18 @@
+/*
+@author Misha
+@date Mon Nov 28 17:05:46 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtEncryptable
+@description ""
+@operation
+icrash.concepts.primarytypes.datatypes.dtEncryptable.is
+""
+@operation
+icrash.concepts.primarytypes.datatypes.dtEncryptable.encrypt
+""
+@operation
+icrash.concepts.primarytypes.datatypes.dtEncryptable.decrypt
+""
+@endOperations

@@ -1,0 +1,13 @@
+/*
+@author Misha
+@date Mon Nov 28 23:15:04 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtQuestion
+@description "a string, which contain additional question for administrator to authentify "
+
+@operation
+icrash.concepts.primarytypes.datatypes.dtQuestion.is
+"used for the user to see the actual question"
+@endOperations

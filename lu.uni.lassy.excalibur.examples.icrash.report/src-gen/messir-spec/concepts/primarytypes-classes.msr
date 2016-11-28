@@ -1,9 +1,9 @@
 package icrash.concepts.primarytypes.classes {
-	
+
 import icrash.concepts.primarytypes.datatypes
-import icrash.environment
+import icrash.environment 
 import lu.uni.lassy.messir.libraries.primitives
-import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.math 
 import lu.uni.lassy.messir.libraries.calendar
 
 	Concept Model {

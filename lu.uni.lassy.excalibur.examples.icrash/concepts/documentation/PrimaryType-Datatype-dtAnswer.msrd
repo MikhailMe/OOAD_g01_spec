@@ -1,0 +1,13 @@
+/*
+@author Misha
+@date Mon Nov 28 23:18:57 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtAnswer
+@description "a string, which contain answer on the additional question for administrator to authentify"
+
+@operation
+icrash.concepts.primarytypes.datatypes.dtAnswer.is
+"used to determine which strings are considered as valid dtAnswer"
+@endOperations

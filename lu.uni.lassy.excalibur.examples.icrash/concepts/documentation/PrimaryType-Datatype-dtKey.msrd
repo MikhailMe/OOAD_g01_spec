@@ -1,0 +1,13 @@
+/*
+@author Misha
+@date Mon Nov 28 23:21:26 MSK 2016
+*/
+
+
+@@Primary Type Datatype icrash.concepts.primarytypes.datatypes.dtKey
+@description "a string, which contains special secret key, which store in the secret file"
+
+@operation
+icrash.concepts.primarytypes.datatypes.dtKey.is
+"used to encrypt and decrypt login & password or login & answer"
+@endOperations

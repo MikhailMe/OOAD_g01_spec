@@ -898,6 +898,18 @@
   <semanticResources>usecases/OLD-documentation/UseCaseInstance-uciSimpleAndCompletePart02.msrd</semanticResources>
   <semanticResources>documentation/View-cm-view6.msrd</semanticResources>
   <semanticResources>documentation/View-em-gv-02.msrd</semanticResources>
+  <semanticResources>concepts/messir.msr</semanticResources>
+  <semanticResources>operations/concepts/primarytypes-datatypes/primarytypes-datatypes-dtEncryptable-encrypt.msr</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtEncryptable-encrypt.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtEncryptable-decrypt.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtEncryptable.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtQuestion.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtAnswer.msrd</semanticResources>
+  <semanticResources>concepts/documentation/PrimaryType-Datatype-dtKey.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtEncryptable-is.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeEnterAnswer.msrd</semanticResources>
+  <semanticResources>usecases/documentation/UseCase-oeOptions.msrd</semanticResources>
+  <semanticResources>environment/documentation/Operation-actAdministrator-outactAdministrator-oeOptions.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_Aguk8EY3EeOwoLagakxXNQ">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_frDQIFBBEeOoKst3jxjvgA" name="cm-pt-ct-gv-01">

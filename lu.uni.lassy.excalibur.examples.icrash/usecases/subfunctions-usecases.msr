@@ -21,6 +21,14 @@ import icrash.environment
     }
   }
 //----------------------------------------------------
+   use case system subfunction oeOptions(AdtQuestion:dtQuestion, AdtAnswer:dtAnswer){
+    actor actAdministrator[primary,active]
+    returned messages {
+      ieOptions() returned to actAdministrator
+    }
+  }
+
+//----------------------------------------------------
   use case system subfunction oeAlert(
                                    AetKind:etHumanKind,
                                    AdtMyDate:dtDate,
@@ -93,6 +101,14 @@ import icrash.environment
       ieMessage(AMessage) returned to actAuthenticated
 	  }
   }   
+//----------------------------------------------------
+  use case system subfunction oeEnterAnswer(AdtLogin:dtLogin , AdtAnswer:dtAnswer) {
+    actor actAuthenticated[primary,active]
+    returned messages {
+      ieMessage(AMessage) returned to actAuthenticated
+	  }
+  } 
+  
 //----------------------------------------------------
   use case system subfunction oeLogout() {
     actor actAuthenticated[primary,active]

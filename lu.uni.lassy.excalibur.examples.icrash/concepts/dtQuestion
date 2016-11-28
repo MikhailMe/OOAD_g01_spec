@@ -1,0 +1,24 @@
+/*
+* @author Misha
+* @date Thu Nov 24 04:49:14 MSK 2016
+*/
+
+package lu.uni.lassy.excalibur.examples.icrash.concepts.primarytypes.datatypes {
+
+import lu.uni.lassy.messir.libraries.primitives
+
+
+	Concept Model {
+
+		Primary Types {
+
+		}
+
+		Secondary Types {
+
+		}
+
+	}
+
+
+}

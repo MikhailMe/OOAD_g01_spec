@@ -1,0 +1,22 @@
+/*
+@author Misha
+@date Mon Nov 28 17:05:32 MSK 2016
+*/
+
+
+@@Operation
+icrash.concepts.primarytypes.datatypes.dtEncryptable.decrypt
+//parameters
+@parameter
+icrash.concepts.primarytypes.datatypes.dtEncryptable.decrypt.AKey
+"string, which contains a secret key from a secret file"
+@endParameters
+
+@description " used for decrypting the called object"
+
+//postFunctional descriptions
+@postF 
+" after decryption of the object we get encrypted object"
+@endPostF
+//example
+@example" "

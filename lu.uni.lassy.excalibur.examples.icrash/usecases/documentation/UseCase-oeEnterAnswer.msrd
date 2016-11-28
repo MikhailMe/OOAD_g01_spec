@@ -1,0 +1,27 @@
+/*
+@author Misha
+@date Mon Nov 28 23:41:57 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeEnterAnswer
+@description "goal is to request authorization to request access secured system operations."
+@parameter icrash.usecases.subfunctions.oeEnterAnswer.AdtLogin ""
+@parameter icrash.usecases.subfunctions.oeEnterAnswer.AdtAnswer ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

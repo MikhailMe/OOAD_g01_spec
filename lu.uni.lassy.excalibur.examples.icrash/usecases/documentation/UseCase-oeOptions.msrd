@@ -1,0 +1,27 @@
+/*
+@author Misha
+@date Mon Nov 28 23:45:02 MSK 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeOptions
+@description "goal is to change existing additional question and answer"
+@parameter icrash.usecases.subfunctions.oeOptions.AdtQuestion ""
+@parameter icrash.usecases.subfunctions.oeOptions.AdtAnswer ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

@@ -18,7 +18,7 @@ icrash.environment.actAuthenticated.outactAuthenticated.oeLogin
 
 //preFunctional descriptions
 @preF
-"none "
+"encrypt login and password!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! "
 @endPreF
 
 //postFunctional descriptions

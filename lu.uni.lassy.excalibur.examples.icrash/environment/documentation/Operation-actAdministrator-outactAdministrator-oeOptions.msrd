@@ -1,0 +1,37 @@
+/*
+@author Misha
+@date Mon Nov 28 23:52:12 MSK 2016
+*/
+
+
+@@Operation
+icrash.environment.actAdministrator.outactAdministrator.oeOptions
+//parameters
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeOptions.AdtLogin
+""
+@parameter
+icrash.environment.actAdministrator.outactAdministrator.oeOptions.AdtPassword
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

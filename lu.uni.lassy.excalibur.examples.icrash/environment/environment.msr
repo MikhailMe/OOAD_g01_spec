@@ -34,8 +34,10 @@ import lu.uni.lassy.messir.libraries.calendar
 											AdtLogin:dtLogin , 
 											AdtPassword:dtPassword ):ptBoolean
 											
-				operation oeDeleteCoordinator(
-											AdtCoordinatorID:dtCoordinatorID ):ptBoolean
+				operation oeDeleteCoordinator(AdtCoordinatorID:dtCoordinatorID ):ptBoolean
+				
+				operation oeOptions(AdtLogin:dtLogin , 
+											AdtPassword:dtPassword ):ptBoolean 
 			}
 			
 			input interface inactAdministrator{
@@ -43,7 +45,7 @@ import lu.uni.lassy.messir.libraries.calendar
 				operation ieCoordinatorAdded():ptBoolean
 				operation ieCoordinatorDeleted():ptBoolean
 				operation ieIsRightAnswer():ptBoolean
-				
+				operation ieQuestion(AQuestion:dtQuestion):ptBoolean
 	 		}
 		}
 		
