@@ -8,11 +8,11 @@
 @description ""
 @operation
 icrash.concepts.primarytypes.datatypes.dtEncryptable.is
-""
+"used for checked isEncrypted"
 @operation
 icrash.concepts.primarytypes.datatypes.dtEncryptable.encrypt
-""
+"used for encrypting the called object "
 @operation
 icrash.concepts.primarytypes.datatypes.dtEncryptable.decrypt
-""
+"used for decrypting the called object "
 @endOperations
