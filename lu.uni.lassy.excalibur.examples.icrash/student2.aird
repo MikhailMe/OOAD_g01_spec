@@ -471,6 +471,10 @@
   <semanticResources>usecases/documentation/UseCase-oeEnterAnswer.msrd</semanticResources>
   <semanticResources>usecases/documentation/UseCase-oeOptions.msrd</semanticResources>
   <semanticResources>environment/documentation/Operation-actAdministrator-outactAdministrator-oeOptions.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtAnswer-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtKey-is.msrd</semanticResources>
+  <semanticResources>concepts/documentation/Operation-dtQuestion-is.msrd</semanticResources>
+  <semanticResources>documentation/View-em-gv-01.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_VxVZ4PWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

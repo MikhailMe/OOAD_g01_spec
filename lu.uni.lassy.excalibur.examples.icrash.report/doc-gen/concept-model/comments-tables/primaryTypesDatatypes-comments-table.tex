@@ -13,6 +13,9 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtAlertID}{ A string used to identify alerts.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid alert identifiers.}
+\adddoublerow{dtAnswer}{a string, which contain answer on the additional question for administrator to authentify}
+\addsingletwocolumnrow{extends}{dtEncryptable}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtAnswer}
 \adddoublerow{dtComment}{a datatype made of a string value used to receive,store and send textual information about crisis and alerts.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid comments.}
@@ -22,26 +25,37 @@ The table below is providing comments on the graphical views given for the datat
 \adddoublerow{dtCrisisID}{ A string used to identify crisis.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid crisis identifiers.}
+\adddoublerow{dtEncryptable}{}
+\addsingletwocolumnrow{extends}{dtString}
+\adddoubletwocolumnrow{operation}{\msrcode{decrypt(AKey:dtKey):ptBoolean}}{used for decrypting the called object }
+\adddoubletwocolumnrow{operation}{\msrcode{encrypt(AKey:dtKey):ptBoolean}}{used for encrypting the called object }
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used for checked isEncrypted}
 \adddoublerow{dtGPSLocation}{used to define coordinates of geograpical positions on earth. It is defined a couple made of a latitude and a longitude.}
 \adddoubletwocolumnrow{attribute}{\msrcode{latitude: dtLatitude}}{for the latitude part of the coordinate.}
 \adddoubletwocolumnrow{attribute}{\msrcode{longitude: dtLongitude}}{for the longitude part of the coordinate.}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which couples are considered as valid dtGPSLocation values.}
 \adddoubletwocolumnrow{operation}{\msrcode{isNearTo(AGPSLocation:dtGPSLocation):ptBoolean}}{used to determine if locations are considered enough close to be treated as equivalent in the application domain context.}
+\adddoublerow{dtKey}{a string, which contains special secret key, which store in the secret file}
+\addsingletwocolumnrow{extends}{dtString}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to encrypt and decrypt login and password or login and answer}
 \adddoublerow{dtLatitude}{used to define a latitude value of a geograpical positions on earth.}
 \addsingletwocolumnrow{extends}{dtReal}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtLatitude.}
 \adddoublerow{dtLogin}{ a login string used to authentify an \msricrash user}
-\addsingletwocolumnrow{extends}{dtString}
+\addsingletwocolumnrow{extends}{dtEncryptable}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtLogin.}
 \adddoublerow{dtLongitude}{used to define a longitude value of a geograpical positions on earth. }
 \addsingletwocolumnrow{extends}{dtReal}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtLongitude.}
 \adddoublerow{dtPassword}{a password string used to authentify an \msricrash user}
-\addsingletwocolumnrow{extends}{dtString}
+\addsingletwocolumnrow{extends}{dtEncryptable}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtPassword.}
 \adddoublerow{dtPhoneNumber}{a string used to store the phone number from the human declaring the crisis or the alert.}
 \addsingletwocolumnrow{extends}{dtString}
 \adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used to determine which strings are considered as valid dtPhoneNumber.}
+\adddoublerow{dtQuestion}{a string, which contain additional question for administrator to authentify }
+\addsingletwocolumnrow{extends}{dtEncryptable}
+\adddoubletwocolumnrow{operation}{\msrcode{is():ptBoolean}}{used for the user to see the actual question}
 \end{datadictionary}
 
 

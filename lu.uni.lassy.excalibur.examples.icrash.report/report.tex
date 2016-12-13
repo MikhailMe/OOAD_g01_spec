@@ -1,7 +1,7 @@
-% @author nicolas.guelfi 
-% @date Tue Nov 05 17:26:22 CET 2013
+% @author Misha
+% @date Wed Nov 30 15:14:43 MSK 2016
 %-------------------------------------------------------------------------------
-% Copyright (c) 2013 University of Luxembourg.
+% Copyright (c) 2013-2015 University of Luxembourg.
 % All rights reserved. This program and the accompanying materials
 % are made available under the terms of the Eclipse Public License v1.0
 % which accompanies this distribution, and is available at
@@ -9,29 +9,29 @@
 % 
 % Contributors:
 %     Alfredo Capozucca - initial API and implementation
-%     Benoit Ries - minor updates
+%     Benoît Ries - minor updates
 %     Nicolas Guelfi - most content from messirbook
-%-------------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \PassOptionsToPackage{usenames,svgnames,table}{xcolor}
-\documentclass[graybox,envcountchap,sectrefs,11pt]{book} 
+\documentclass[graybox,envcountchap,sectrefs,11pt]{book}    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% DO NOT CHANGE THE ORDER 
+%%% DO NOT CHANGE THE ORDER
 \usepackage{./../lu.uni.lassy.excalibur.standard.report.libraries/styles/style-messir-common}
 \usepackage{./../lu.uni.lassy.excalibur.standard.report.libraries/styles/style-messir-report-post}
- 
 %--------------------------------------------
 % DOCUMENT BEGIN
-%---------------------------------------- ---
-\begin{document} 
+%--------------------------------------------
+\begin{document}
 
 \newgeometry{textwidth=17cm,textheight=23.7cm} 
-
+ 
 \input{doc-gen/styles/style-messir-report-type.tex}
 
 \input{./../lu.uni.lassy.excalibur.standard.report.libraries/defs/msr-def.tex}
 \input{doc/glossary/glossary.tex}
 \input{defs/msr-project-def.tex}
+  
 
 %TITLE
 \input{doc/title-page/title-page.tex}
@@ -44,7 +44,7 @@
 \tableofcontents
 \newpage
 
-%TOF 
+%TOF
 \listoffigures
 \newpage
 
@@ -74,10 +74,11 @@
 \printglossaries
 \newpage
 
+
 %BIBLIOGRAPHY
 \cleardoublepage
 \bibliographystyle{./../lu.uni.lassy.excalibur.standard.report.libraries/styles/lncs} 
 \bibliography{./../lu.uni.lassy.excalibur.standard.report.libraries/defs/references/messir,doc/bibliography/report}
 \label{sec:references}
-
+ 
 \end{document}

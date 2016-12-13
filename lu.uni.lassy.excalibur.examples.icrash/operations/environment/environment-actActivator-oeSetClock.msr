@@ -34,7 +34,7 @@ postF{
 }
 postP{true}
 
-prolog{"src/Operations/Environment/OUT/outactActivator-oeSetClock.pl"}
+//prolog{"src/Operations/Environment/OUT/outactActivator-oeSetClock.pl"}
 
 }
 }

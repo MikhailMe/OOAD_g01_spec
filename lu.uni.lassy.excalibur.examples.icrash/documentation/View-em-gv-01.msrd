@@ -1,0 +1,13 @@
+/*
+@author Misha
+@date Wed Nov 30 14:46:49 MSK 2016
+*/
+
+
+@@view em-gv-01
+@model Concept
+@level Local
+@sublevel Primary Class
+@number 8
+@description ""
+@caption ""

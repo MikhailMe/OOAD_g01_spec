@@ -1,50 +1,60 @@
 package icrash.concepts.primarytypes.datatypes {
-
-import lu.uni.lassy.messir.libraries.primitives
-import lu.uni.lassy.messir.libraries.string
-import lu.uni.lassy.messir.libraries.math
-import lu.uni.lassy.messir.libraries.calendar
+	import lu.uni.lassy.messir.libraries.primitives
+	import lu.uni.lassy.messir.libraries.string
+	import lu.uni.lassy.messir.libraries.math
+	import lu.uni.lassy.messir.libraries.calendar
 
 	Concept Model {
-		
 		Primary Types {
-   
-			 datatype dtAlertID extends dtString {
+			datatype dtAlertID extends dtString {
 				operation is():ptBoolean
 			}
 			datatype dtCrisisID extends dtString {
 				operation is():ptBoolean
 			}
-			datatype dtLogin extends dtString {
+			datatype dtLogin extends dtEncryptable {
 				operation is():ptBoolean
 			}
-			datatype dtPassword extends dtString {
+			datatype dtPassword extends dtEncryptable {
 				operation is():ptBoolean
 			}
 			datatype dtCoordinatorID extends dtString {
 				operation is():ptBoolean
 			}
+			datatype dtKey extends dtString {
+				operation is():ptBoolean
+			}
+			datatype dtAnswer extends dtEncryptable {
+				operation is():ptBoolean
+			}
+			datatype dtQuestion extends dtEncryptable {
+				operation is():ptBoolean
+			}
+			datatype dtEncryptable extends dtString {
+				operation is():ptBoolean
+				operation encrypt(AKey:dtKey):ptBoolean
+				operation decrypt(AKey:dtKey):ptBoolean
+			}
 			datatype dtPhoneNumber extends dtString {
 				operation is():ptBoolean
 			}
 			datatype dtComment extends dtString {
-				operation is():ptBoolean			
+				operation is():ptBoolean
 			}
 			datatype dtLatitude extends dtReal {
-				operation is():ptBoolean			
+				operation is():ptBoolean
 			}
 			datatype dtLongitude extends dtReal {
-				operation is():ptBoolean			
+				operation is():ptBoolean
 			}
 			datatype dtGPSLocation {
-				attribute latitude: dtLatitude 
-				attribute longitude: dtLongitude
-				operation is():ptBoolean			
-				operation isNearTo(AGPSLocation:dtGPSLocation ):ptBoolean
+				attribute latitude:dtLatitude
+				attribute longitude:dtLongitude
+				operation is():ptBoolean
+				operation isNearTo(AGPSLocation:dtGPSLocation):ptBoolean
 			}
-			
 			enum etCrisisStatus {
-				constants["pending", "handled", "solved","closed"]
+				constants["pending", "handled", "solved", "closed"]
 				operation is():ptBoolean
 			}
 			enum etAlertStatus {

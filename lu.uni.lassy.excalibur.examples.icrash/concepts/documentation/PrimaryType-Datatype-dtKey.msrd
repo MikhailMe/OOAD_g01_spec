@@ -9,5 +9,5 @@
 
 @operation
 icrash.concepts.primarytypes.datatypes.dtKey.is
-"used to encrypt and decrypt login & password or login & answer"
+"used to encrypt and decrypt login and password or login and answer"
 @endOperations
