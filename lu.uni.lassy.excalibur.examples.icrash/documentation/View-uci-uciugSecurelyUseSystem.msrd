@@ -1,5 +1,5 @@
 
 @@view uci-uciugSecurelyUseSystem
 @instance Use-Case usecases.uciugSecurelyUseSystem.uciugSecurelyUseSystem 
-@description ""
-@caption ""
+@description "shows the use case instance view which can be seen a new process of interaction with the system"
+@caption "ugAdminSecurety new process of interaction with the system"

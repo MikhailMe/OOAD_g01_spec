@@ -1,0 +1,25 @@
+
+/*
+* @author Misha
+* @date Mon Dec 19 15:50:53 MSK 2016
+*/
+package lu.uni.lassy.excalibur.examples.icrash.usecases.ugAdminSequrity.msr {
+	import icrash.environment
+	import icrash.usecases.subfunctions
+
+	Use Case Model {
+
+		use case system usergoal ugAdminSequrity() {
+			actor actAdministrator[primary, active]
+			reuse oeLogin[1 .. 1]
+			reuse oeLogout[1 .. 1]
+			reuse oeEnterAnswer[1 .. 1]
+			step a:actAdministrator executes oeLogin
+			step b:actAdministrator executes oeEnterAnswer
+			step c:actAdministrator executes oeLogout
+			ordering constraint "step (a) and (b) must always precede step (c)."
+			ordering constraint "step (a) must always precede step (b)."
+			
+		}
+	}
+}

@@ -1,0 +1,8 @@
+package usecases.uciugSecurelyUseSystemForAdmin {
+	import icrash.usecases.ugMonitor
+
+	Use Case Model {
+
+		
+	}
+}

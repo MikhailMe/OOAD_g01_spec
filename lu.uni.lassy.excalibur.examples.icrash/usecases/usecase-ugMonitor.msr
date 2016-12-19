@@ -13,5 +13,6 @@ package icrash.usecases.ugMonitor {
       step a: icrash.environment.actCoordinator executes oeGetAlertsSet
       step b: icrash.environment.actCoordinator executes oeGetCrisisSet
     }
+	
 	}
 }

@@ -475,6 +475,14 @@
   <semanticResources>concepts/documentation/Operation-dtKey-is.msrd</semanticResources>
   <semanticResources>concepts/documentation/Operation-dtQuestion-is.msrd</semanticResources>
   <semanticResources>documentation/View-em-gv-01.msrd</semanticResources>
+  <semanticResources>usecases/usecaseinstance-ugSecurelyUseSystemForAdmin-actAdministrator.msr</semanticResources>
+  <semanticResources>environment/documentation/Operation-actAdministrator-outactAdministrator-oeAnswerTheQuestion.msrd</semanticResources>
+  <semanticResources>usecases/ugAdminSequrity.msr</semanticResources>
+  <semanticResources>documentation/View-uc-ugAsminSequrity.msrd</semanticResources>
+  <semanticResources>usecases/usecaseinstance-ugAsminSequrity-uciugAsminSequrity.msr</semanticResources>
+  <semanticResources>documentation/View-uci-uciugAsminSequrity.msrd</semanticResources>
+  <semanticResources>documentation/View-uc-ugAdminSequrity.msrd</semanticResources>
+  <semanticResources>documentation/View-uci-uciugAdminSequrity.msrd</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_X0EtsPWqEeSOM9Kfym77Zg">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/lu.uni.lassy.excalibur.ui.viewer/description/excalibur_models.odesign#//@ownedViewpoints[name='msr-viewpoint']"/>
   </ownedViews>

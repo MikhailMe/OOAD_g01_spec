@@ -1,0 +1,29 @@
+package usecases.uciugAsminSequrity {
+	import lu.uni.lassy.excalibur.examples.icrash.usecases.ugAdminSequrity.msr
+	import icrash.concepts.primarytypes.datatypes
+	import icrash.environment
+	import icrash.usecases.suGlobalCrisisHandling
+	import icrash.usecases.ugAdministrateTheSystem
+	import icrash.usecases.subfunctions
+
+	Use Case Model {
+
+		use case instance uciugAdminSequrity:ugAdminSequrity {
+			actors {
+				bill:actAdministrator
+			}
+			use case steps {
+				bill executed instanceof subfunction oeLogin("icrashadmin", "7WXC1359") {
+					ieMessage('Okey.If you are admin, prove it!!!') returned to bill
+					ieQuestion("What name of your cat?") returned to bill
+				}
+				bill executed instanceof subfunction oeEnterAnswer("icrashadmin", "cat") {
+					ieMessage('You answer is right, Welcome! ...') returned to bill
+				}
+				bill executed instanceof subfunction oeLogout {
+					ieMessage('You are logged out ! Good Bye ...') returned to bill
+				}
+			}
+		}
+	}
+}

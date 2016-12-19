@@ -1,0 +1,10 @@
+/*
+@author Misha
+@date Mon Dec 19 16:45:26 MSK 2016
+*/
+
+
+@@view uci-uciugAdminSequrity
+@instance Use-Case usecases.uciugAsminSequrity.uciugAdminSequrity 
+@description "shows the use case instance view which can be seen a new process of interaction with the system"
+@caption "ugAdminSecurety new process of interaction with the system"

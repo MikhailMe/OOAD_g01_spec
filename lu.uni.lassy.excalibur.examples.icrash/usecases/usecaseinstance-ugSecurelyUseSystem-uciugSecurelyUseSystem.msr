@@ -19,8 +19,14 @@ package usecases.uciugSecurelyUseSystem {
         bill
         executed instanceof subfunction
               oeLogin("icrashadmin","7WXC1359"){
-                ieMessage('You are logged ! Welcome ...') returned to bill
+                ieMessage('Okey.If you are admin, prove it!!!') returned to bill
               }
+//-----------------------------
+		bill 
+		executed instanceof subfunction
+				oeEnterAnswer("What name of your cat?","cat"){
+				  ieMessage('You answer is right, Welcome! ...') returned to bill
+				}
 //-----------------------------
         bill
         executed instanceof subfunction

@@ -1,0 +1,10 @@
+/*
+@author Misha
+@date Mon Dec 19 16:44:57 MSK 2016
+*/
+
+
+@@view uc-ugAdminSequrity
+@model Use-Case lu.uni.lassy.excalibur.examples.icrash.usecases.ugAdminSequrity.msr.ugAdminSequrity 
+@description "shows the use case diagram for the ugAdminSequretyU user goal use case"
+@caption "ugAdminSecurety user goal use case"
